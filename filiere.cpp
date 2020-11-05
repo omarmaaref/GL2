@@ -16,7 +16,7 @@ filiere::filiere(int id,int nbre ,vector<etudiant> tab){
 	
 	void filiere::affiche(){	
 	for (int i=0;i<(int) etudiants.size();i++){
-		cout<<"id du l etudiant est "<<etudiants[i].getnumcarte()<<" ";	
+		cout<<"id du "<<i+1<<" etudiant est "<<etudiants[i].getnumcarte()<<"\n";	
 	}
 	cout<<"\n";}
 
